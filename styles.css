@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    background-image: url("https://uploads-ssl.webflow.com/61d20e70c433a932260a04b1/61e841eb95ffba539d3b0b96_gmg%4017.svg");
+    background-repeat: no-repeat;
+    height: 700px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+.logo {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+
+  .nav-link {
+      font-weight: 600;
+      color:white!important;
+      font-size: 1.15rem;
+      margin-left: 1.5rem;
+  }
+
+  #nav {
+      margin-top: 1.5rem;
+  }
+
+  .mockup {
+    transform: rotate(-27deg);
+    width: 85%;
+    position: absolute;
+    left: 20%;
+    margin-top:6rem;
+  }
+
+  #about {
+    position: relative;
+    background-color: white;
+    padding: 7rem 0;
+  }
+
+  .thing {
+        text-align: right;
+
+  }
+
+  .title1 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    padding: 8rem 0 2rem 0;
+  }
+
+  .email {
+    border-radius: 15px;
+    padding: 0.35rem 0.5rem;
+    border:none;
+    width: 60%;
+  }
+
+  .submit {
+    border-radius: 15px;
+    padding: 0.35rem 0.5rem;
+    border:none;
+    display: inline;
+    color: white;
+    background-color: #343D52;
+    margin-bottom: 19rem;
+  }
+  form {
+    display: block;
+  }
+
+  input {
+    display: inline-block;
+  }
+
+.carousel-cell {
+    width: 75%;
+    height: 500px;
+    margin-right: 2.5rem;
+    background-image: url("gradient.png");
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border-radius: 35px;
+  }
+  
+.feauture {
+  width: 70%;
+  margin-top: 3rem;
+}
